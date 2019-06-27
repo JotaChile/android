@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <string name="storage_link">gs://apchile-5c18c.appspot.com</string>
+    <string name="google_web_client_id">642754473994-2tn2i31psu5ta02pubrrggq4bb7f9u4e.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">668856756832953</string>
+    <string name="facebook_large_image_url_pattern">https://graph.facebook.com/%1$s/picture?type=large</string>
+    <string name="google_large_image_url_pattern">%1$s?sz=%2$d</string>
+</resources>

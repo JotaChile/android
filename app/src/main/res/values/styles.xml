@@ -1,0 +1,109 @@
+<resources>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+       >
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/md_yellow_700</item>
+        <item name="colorAccent">@color/md_yellow_800</item>
+        <item name="actionModeBackground">@color/primary</item>
+        <item name="colorControlHighlight">@color/md_black_1000_25</item>​
+        <item name="colorControlNormal">@color/md_black_1000_50</item>
+        <item name="colorSwitchThumbNormal">@color/md_grey_200</item>
+        <item name="android:colorForeground">@color/md_black_1000_75</item>
+        <item name="windowActionModeOverlay">true</item>
+
+
+
+    </style>
+
+    <style name="DarkActionBarWithLightAccent" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="AppCompat.Black.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorBackground">@android:color/background_dark</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
+    </style>
+
+    <style name="AppCompat.NoActionBar" parent="AppTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TextAppearance.Title" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/primary_dark_text</item>
+    </style>
+
+    <style name="TextAppearance.Large" parent="@android:style/TextAppearance">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/primary_dark_text</item>
+    </style>
+
+    <style name="TextAppearance.Title.White" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextAppearance.Title.Light" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/secondary_light</item>
+    </style>
+
+    <style name="TextAppearance.Toolbar.Expanded" parent="TextAppearance.Design.CollapsingToolbar.Expanded">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextAppearance.Second" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+
+    <style name="TextAppearance.Second.Light" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/secondary_light</item>
+    </style>
+
+    <style name="TextAppearance.Highlight" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/md_yellow_800</item>
+    </style>
+
+    <style name="TextAppearance.Second.Dark" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/primary_dark_text</item>
+    </style>
+
+    <style name="TextAppearance.MainTitle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextAppearance.Counter" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/primary_dark_text</item>
+    </style>
+
+    <style name="FollowButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:layout_width">@dimen/follow_button_width</item>
+        <item name="android:layout_height">@dimen/follow_button_height</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+    <style name="TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="tabIndicatorHeight">@dimen/tab_indicator_height</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+    </style>
+
+
+</resources>

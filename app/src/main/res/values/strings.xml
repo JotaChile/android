@@ -1,0 +1,202 @@
+
+
+<resources>
+    <string name="count_initial_value">0</string>
+    <string name="button_label">Send</string>
+    <string name="toast_message">Hurra!</string>
+    <string name="input_placeholder">Escribe un mensaje..</string>
+    <string name="app_name">Mascotitas</string>
+    <string name="label_create_post_activity">Nuevo Post</string>
+    <string name="label_post_detail_activity">Detalles de la publicación</string>
+    <string name="label_image_detail_activity">Imagen</string>
+    <string name="title_activity_login">Iniciar sesión</string>
+    <string name="title_activity_create_profile">Crear perfil</string>
+    <string name="title_activity_profile">Perfil</string>
+    <string name="title_activity_edit_profile">Editar perfil</string>
+    <string name="title_activity_edit_post">Editar publicación</string>
+    <string name="title_activity_following_posts">Seguidos</string>
+
+    <string name="text_take_photo">Tomar foto</string>
+    <string name="text_pick_photo">Escoger de la galeria</string>
+    <string name="button_title_cancel">Cancelar</string>
+    <string name="button_ok">OK</string>
+
+    <string name="hint_title">Título</string>
+    <string name="hint_description">Descripción</string>
+
+    <string name="message_post_was_created">Se publicó tu mensaje</string>
+    <string name="error_fail_create_post">Error al crear publicación</string>
+    <string name="error_fail_load_image">Error al cargar imagen</string>
+    <string name="error_fail_crop_image">Error al cortar imagen</string>
+    <string name="error_smaller_image">La imagen es muy pequeña. Se requiere una imagen de al menos 100x100 px</string>
+    <string name="error_incorrect_file_type">Tipo de archivo incorrecto</string>
+    <string name="error_bigger_file">El tamaño del archivo es superior a 10mb</string>
+    <string name="message_creating_post">Estamos publicando tu mensaje …</string>
+    <string name="message_saving">Guardando …</string>
+    <string name="warning_empty_image">La imagen es requerida.</string>
+    <string name="warning_empty_title">El titulo es requerido.</string>
+    <string name="warning_empty_description">Debes poner una descipción.</string>
+    <string name="error_post_title_length">La longitud máxima del título debe ser inferior a 255 símbolos</string>
+    <string name="error_fail_remove_post">Error al remover publicación</string>
+    <string name="message_post_was_removed">La Publicación ha sido removida</string>
+    <string name="error_fail_update_post">Error al actualizar aplicación</string>
+    <string name="error_post_was_removed">La Publicación ha sido removida</string>
+    <string name="confirm_deletion_post">¿Eliminar esta publicación?</string>
+
+    <string name="comment_text_hint">Ingresa tu comentario …</string>
+    <string name="button_post_comment">Publicar comentario</string>
+
+    <string name="label_comments">Comentarios (%1$d):</string>
+
+    <string name="create_post_menu_label">Publicar</string>
+    <string name="create_post_full_menu_label">Crear publicación</string>
+    <string name="sign_out_menu_label">Cerrar sesión</string>
+    <string name="edit_profile_menu_label">Editar perfil</string>
+    <string name="button_title_save">Hecho</string>
+    <string name="button_title_continue">Continuar</string>
+
+    <!-- Strings menu de registracion de Mascotitas-->
+    <string name="prompt_email">Correo</string>
+    <string name="prompt_name">Nombre</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_conf_password">Confirmar contraseña</string>
+    <string name="action_create_profile">Continuar</string>
+    <string name="error_field_required">Los campos marcados son requeridos</string>
+    <string name="error_profile_name_length">La longitud máxima del nombre debe ser inferior a 120 símbolos</string>
+    <string name="error_invalid_email">El correo electrónico ingresado es inválido</string>
+    <string name="error_confirm_password">Las contraseñas no coinciden</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="permissions_not_granted">Cancelando, no se ha otorgado los permisos necesarios</string>
+    <string name="error_fail_create_profile">Error al crear perfil</string>
+    <string name="error_fail_update_profile">Error al actualizar perfil</string>
+    <string name="text_login">!Gracias por usar esta aplicación! Por favor, inicia sesión para continuar con esta operación.</string>
+    <string name="error_authentication">Autentificación Fallida.</string>
+    <string name="error_google_play_services">Error en Google Play Services.</string>
+    <string name="button_login_with_facebook">Iniciar sesión con Facebook</string>
+    <string name="button_login_with_google">Iniciar sesión con Google</string>
+
+
+    <string name="loading">Cargando …</string>
+    <string name="removing">Removiendo …</string>
+    <string name="error_general">Algo salio mal.</string>
+    <string name="error_general_post">Algo salio mal con esta publicación, id: %1$s</string>
+    <string name="internet_connection_failed">Sin conexión a internet</string>
+    <string name="press_once_again_to_exit">Preciona otra vez para salir.</string>
+
+    <!-- Strings relacionados al login -->
+
+    <string name="error_invalid_password">La contraseña es muy corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="permission_rationale">"Se requieren permisos a Contactos para proporcionar el correo electrónico."
+    </string>
+
+    <string name="profile_menu_item">Perfil</string>
+    <string name="collapse_text_label">mostrar menos</string>
+    <string name="expand_text_label">mostrar mass</string>
+    <string name="add_complain">Denunciar</string>
+    <string name="edit_post_menu">Editar publicación</string>
+    <string name="delete_post_menu">Borrar publicación</string>
+    <string name="complain_text">Puedes denunciar si alguna publicación contiene violencia, acoso, amenzas o inflinge la ley,
+        nadie sabra que has denunciado esta publicación, tomaremos las medidas correspondientes.
+        Gracias por hacer de la comunidad de Mascotitas un mejor lugar.</string>
+
+    <string name="send_comment_button_label">Enviar</string>
+    <string name="posted_by_label">Publicado por:</string>
+
+    <plurals name="posts_counter_format">
+        <item quantity="one">publicación</item>
+        <item quantity="other">publicaciones</item>
+    </plurals>
+
+    <plurals name="likes_counter_format">
+        <item quantity="one">me gusta</item>
+        <item quantity="other">me gusta</item>
+    </plurals>
+
+    <plurals name="followers_counter_format">
+        <item quantity="one">seguidor</item>
+        <item quantity="other">seguidores</item>
+    </plurals>
+
+    <plurals name="followings_counter_format">
+        <item quantity="one">siguiendo</item>
+        <item quantity="other">seguiendo</item>
+    </plurals>
+
+    <string name="posts_label">Publicaciones:</string>
+    <string name="complain_sent">Su denuncia fue enviada.</string>
+    <string name="now_time_range">ahora</string>
+
+    <string name="duration_minutes_shortest">%1$d m</string>
+    <string name="duration_hours_shortest">%1$d h</string>
+    <string name="duration_days_shortest">%1$d d</string>
+    <string name="duration_week_shortest">%1$d w</string>
+
+    <string name="post_image_transition_name" translatable="false">post_image_transition</string>
+    <string name="post_author_image_transition_name" translatable="false">post_author_image_transition_name</string>
+    <string name="message_new_post_was_created">Nuevas publicaciones</string>
+
+    <plurals name="new_posts_counter_format">
+        <item quantity="one">%1$d nueva publicación</item>
+        <item quantity="other">%1$d nuevas publicaciones</item>
+    </plurals>
+
+    <string name="edit_comment_menu_item">Editar</string>
+    <string name="delete_comment_menu_item">Borrar</string>
+    <string name="message_comment_was_removed">El comentario ha sido eliminado.</string>
+    <string name="message_comment_was_edited">El comentario ha sido editado.</string>
+    <string name="title_edit_comment">Editar comentario</string>
+
+    <!--seguidores-->
+    <string name="button_follow_title">Seguir</string>
+    <string name="button_follow_back_title">Seguir de vuelta</string>
+    <string name="button_following">Siguiendo</string>
+    <string name="unfollow_user_message">Dejar de seguir %1$s?</string>
+    <string name="button_title_unfollow">Dejar de seguir</string>
+    <string name="message_following_posts_empty">Sigue a alguien para ver sus nuevos posts.</string>
+    <string name="following_post_menu_item">Chat</string>
+
+    <!--lista de usuarios-->
+    <string name="title_followers">Seguidores</string>
+    <string name="title_followings">Seguiendo</string>
+    <string name="message_empty_list">No tienes ningún %1$s aun.</string>
+
+    <!--buscar-->
+    <string name="search_menu_item">Buscar</string>
+    <string name="search_hint">Buscando …</string>
+    <string name="posts_tab_title">Publicaciones</string>
+    <string name="users_tab_title">Usuarios</string>
+    <string name="empty_posts_search_message">No hay publicaciones encontradas.</string>
+    <string name="empty_user_search_message">No hay usuarios encontrados.</string>
+
+
+    <!--errores de la Firebase -->
+    <string name="permission_denied_error">Porfavor vea las reglas para acceder a la  Firebase Realtime Database</string>
+
+    <!--Notificaciones-->
+    <string name="new_like_channel_name">Nuevo me gusta</string>
+    <string name="new_comment_channel_name">Nuevo comentario</string>
+
+
+
+    <string name="title_activity_welcome">Acerca de Mascotitas</string>
+    <string name="next">Siguiente</string>
+    <string name="skip">Saltar</string>
+    <string name="start">Continuar</string>
+
+    <string name="slide_1_title">Bienvenido/a</string>
+    <string name="slide_1_desc">En Mascotitas amamos los animales! Por eso queremos que compartas tus experiencias con otros miembros de la comunidad!</string>
+
+    <string name="slide_2_title">Publica, Comenta</string>
+    <string name="slide_2_desc">En tiempo real para que estes al tanto de todo lo que pasa entre la comunidad! Un espacio social brindado para ti y todas las mascotas!</string>
+
+    <string name="slide_3_title">Seguidos y seguidores</string>
+    <string name="slide_3_desc">Sigue a tus amigos o personas de interes para compartir sus mejores feedbacks!</string>
+
+    <string name="slide_4_title">Chat</string>
+    <string name="slide_4_desc">Chatea entre todos juntos para compartir una experiencia más fluida! Cuentas tus historias, da consejos o intercambia todo tipo de información de las mascotas</string>
+
+
+
+
+</resources>
